@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>CHN's</title>
+</head>
+<body>
+   <div class="container-fluid">
+      <div class="container">
+         <header class="row">
+            <h2 class="col-md-5 col-xl-7 col-xxl-7 click-home addClass-act"><a href="#">CNH<span>'s</span></a></h2>
+            <nav class="col-md-7 col-xl-5 col-xxl-5">
+               <ul>
+                  <li class="click-allCurrencies addClass-act">All currencies</li>
+                  <li class="click-changeMony addClass-act">Change mony</li>
+                  <li class="click-account addClass-act">News</li>
+               </ul>
+            </nav>
+         </header>
+         <main>
+            <section class="targetOf-home">
+               <div class="row">
+                  <div class="mainContent col-7">
+                     <p>актуальний курс валют на <span class="todayDate"></span></p>
+                     <h1>Курс головних валют</h1>
+                     <table>
+                        <thead>
+                           <tr>
+                              <td>Валюта</td>
+                              <td>Купівля</td>
+                              <td>Продаж</td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>USD</td>
+                              <td class="usdBayH">оновлення...</td>
+                              <td class="usdSaleH">оновлення...</td>
+                           </tr>
+                           <tr>
+                              <td>EUR</td>
+                              <td class="eurBayH">оновлення...</td>
+                              <td class="eurSaleH">оновлення...</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <p>Оновлення данних за <span class="timer"></span></p>
+                  </div>
+                  <div class="news col-5">
+                     <div class="card"></div>
+                  </div>
+                  <div id="chart" class="col-7">
+                     <span class="usd">USD</span>
+                     <span class="eur">EUR</span>
+                  </div>
+               </div>
+            </section>
+            <section class="targetOf-allCurrencies">
+               <h1>Курси валют</h1>
+               <p>виберіть дату</p>
+               <input type="date" class="checkedData">
+               <table>
+                  <thead>
+                     <tr>
+                        <td>Валюта</td>
+                        <td>Купівля</td>
+                        <td>Продаж</td>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>USD</td>
+                        <td class="usdBay">оновлення...</td>
+                        <td class="usdSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>EUR</td>
+                        <td class="eurBay">оновлення...</td>
+                        <td class="eurSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>CHF</td>
+                        <td class="chfBay">оновлення...</td>
+                        <td class="chfSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>GBP</td>
+                        <td class="gbrBay">оновлення...</td>
+                        <td class="gbrSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>PLZ</td>
+                        <td class="plzBay">оновлення...</td>
+                        <td class="plzSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>SEK</td>
+                        <td class="sekBay">оновлення...</td>
+                        <td class="sekSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>XAU</td>
+                        <td class="xauBay">оновлення...</td>
+                        <td class="xauSale">оновлення...</td>
+                     </tr>
+                     <tr>
+                        <td>CAD</td>
+                        <td class="cadBay">оновлення...</td>
+                        <td class="cadSale">оновлення...</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </section>
+            <section class="targetOf-changeMony">
+               ТУТ МАЄ БУТИ ДОДАТКОВИЙ ФУНКЦІОНАЛ
+            </section>
+            <section class="targetOf-account">
+               ТУТ МАЄ БУТИ ДОДАТКОВИЙ ФУНКЦІОНАЛ
+            </section>
+         </main>
+         <div id="fake-footer">
+            <p>&copy; 2023 CHN's. Усі права захищені.</p>
+            <p><a href="#">Політика конфіденційності</a></p>
+        
+            <div class="social-icons">
+              <a href="#" title="Facebook">F</a>
+              <a href="#" title="Twitter">T</a>
+              <a href="#" title="Instagram">I</a>
+            </div>
+        
+            <div class="additional-links">
+              <a href="#">Зворотній зв'язок</a>
+              <a href="#">Допомога</a>
+            </div>
+      
+            <div class="copyright">
+              <p>Розроблено з любов'ю в Україні.</p>
+            </div>
+          </div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="./js/main.js"></script>
+</body>
+</html>
